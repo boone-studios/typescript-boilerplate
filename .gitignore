@@ -1,0 +1,18 @@
+# Package
+node_modules
+typings
+
+# Common
+.idea
+*.js
+!custom_modules/**/*.js
+*.map
+test.*
+.vscode
+!config/*.js
+doc/notes.txt
+sh.exe.stackdump
+.DS_STORE
+.DS_Store
+!build/.gitignore
+build

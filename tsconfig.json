@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "outDir": "build",
+        "rootDir": ".",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts",
+        "!./typings/browser/**/*.ts",
+        "!./typings/browser.d.ts",
+        "!./build"
+    ],
+    "exclude": [
+        "node_modules",
+        "typings/browser.d.ts",
+        "typings/browser",
+        "halogen-rewrite"
+    ],
+    "externalTranspiler": "babel",
+    "atom": {
+        "rewriteTsconfig": false,
+        "formatOnSave": false
+    }
+}
