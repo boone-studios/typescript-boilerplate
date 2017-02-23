@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "user": "peribar",
+    "password": "peribar",
+    "database": "peribar",
+    "host": "localhost",
+    "port": 3306
+  }
+}
